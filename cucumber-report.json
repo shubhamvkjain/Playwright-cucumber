@@ -4,72 +4,6 @@
     "elements": [
       {
         "description": "",
-        "id": "login-feature;successful-login",
-        "keyword": "Scenario",
-        "line": 3,
-        "name": "Successful Login",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 259455699
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "User is on login page",
-            "match": {
-              "location": "src\\test\\stepdefinition\\login.spec.ts:29"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1015097099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "User enters valid credentials",
-            "match": {
-              "location": "src\\test\\stepdefinition\\login.spec.ts:37"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1583499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 7,
-            "name": "User able to login Successfully",
-            "match": {
-              "location": "src\\test\\stepdefinition\\login.spec.ts:44"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1060300
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 30546000
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
         "id": "login-feature;unsuccessful-login",
         "keyword": "Scenario",
         "line": 10,
@@ -80,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 293014100
+              "duration": 279670000
             }
           },
           {
@@ -93,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1799965499
+              "duration": 1567772400
             }
           },
           {
@@ -106,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1325899
+              "duration": 1521099
             }
           },
           {
@@ -119,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 938600
+              "duration": 908599
             }
           },
           {
@@ -127,7 +61,73 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 28256499
+              "duration": 28388100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;successful-login",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Successful Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 288681499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is on login page",
+            "match": {
+              "location": "src\\test\\stepdefinition\\login.spec.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1119971600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enters valid credentials",
+            "match": {
+              "location": "src\\test\\stepdefinition\\login.spec.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1547700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User able to login Successfully",
+            "match": {
+              "location": "src\\test\\stepdefinition\\login.spec.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1035000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 27106800
             }
           }
         ],
