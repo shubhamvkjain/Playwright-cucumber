@@ -1,0 +1,31 @@
+{
+    "default": {
+      "requireModule": ["ts-node/register"],
+      "require": [
+        "src/test/stepdefinition/login.spec.ts",
+        "step-definitions/**/*.ts",
+        "support/**/*.ts"
+      ],
+      "paths": [
+        "src/test/features/login.feature",
+        "features/**/*.feature"
+      ],
+      "format": [
+        "progress-bar",
+        "html:cucumber-report.html",
+        "json:cucumber-report.json"
+      ],
+      
+      "formatOptions": {
+        "snippetInterface": "async-await"
+      },
+      "publishQuiet": true,
+      "worldParameters": {
+        "timeout": 30000,
+        "trace": "retain-on-failure"
+      },
+      "parallel": 3,
+      "tags": "not @ignore",
+      "retry": 2
+    }
+  }
