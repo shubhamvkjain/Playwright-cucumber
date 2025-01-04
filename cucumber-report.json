@@ -4,72 +4,6 @@
     "elements": [
       {
         "description": "",
-        "id": "login-feature;unsuccessful-login",
-        "keyword": "Scenario",
-        "line": 10,
-        "name": "Unsuccessful login",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 279670000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 12,
-            "name": "User is on registration page",
-            "match": {
-              "location": "src\\test\\stepdefinition\\login.spec.ts:49"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1567772400
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 13,
-            "name": "User enters invalid credentials",
-            "match": {
-              "location": "src\\test\\stepdefinition\\login.spec.ts:56"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1521099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 14,
-            "name": "User able to register Successfully",
-            "match": {
-              "location": "src\\test\\stepdefinition\\login.spec.ts:63"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 908599
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 28388100
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
         "id": "login-feature;successful-login",
         "keyword": "Scenario",
         "line": 3,
@@ -80,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 288681499
+              "duration": 290508399
             }
           },
           {
@@ -93,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1119971600
+              "duration": 1106532799
             }
           },
           {
@@ -106,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1547700
+              "duration": 2161299
             }
           },
           {
@@ -119,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1035000
+              "duration": 1259299
             }
           },
           {
@@ -127,7 +61,73 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 27106800
+              "duration": 31379800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;unsuccessful-login",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Unsuccessful login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 284508299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "User is on registration page",
+            "match": {
+              "location": "src\\test\\stepdefinition\\login.spec.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1721533300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "User enters invalid credentials",
+            "match": {
+              "location": "src\\test\\stepdefinition\\login.spec.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1463499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "User able to register Successfully",
+            "match": {
+              "location": "src\\test\\stepdefinition\\login.spec.ts:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1057899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 27534999
             }
           }
         ],
