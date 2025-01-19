@@ -2,12 +2,12 @@
     "default": {
       "requireModule": ["ts-node/register"],
       "require": [
-        "src/test/stepdefinition/login.spec.ts",
+        "src/test/stepdefinition/*.ts",
         "step-definitions/**/*.ts",
         "support/**/*.ts"
       ],
       "paths": [
-        "src/test/features/login.feature",
+        "src/test/features/*.feature",
         "features/**/*.feature"
       ],
       "format": [
