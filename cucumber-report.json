@@ -4,6 +4,83 @@
     "elements": [
       {
         "description": "",
+        "id": "registration-of-new-user;successful-registration-of-new-user",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Successful Registration of new user",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1646473300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is on register page",
+            "match": {
+              "location": "src\\test\\stepdefinition\\register.spec.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6178300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enters valid Registration credentials",
+            "match": {
+              "location": "src\\test\\stepdefinition\\register.spec.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1439300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User is able to register Successfully",
+            "match": {
+              "location": "src\\test\\stepdefinition\\register.spec.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1084199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 15690599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "registration-of-new-user",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Registration of new user",
+    "tags": [],
+    "uri": "src\\test\\features\\Registration..feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
         "id": "login-feature;successful-login",
         "keyword": "Scenario",
         "line": 3,
@@ -14,7 +91,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 414107900
+              "duration": 1631842499
             }
           },
           {
@@ -27,7 +104,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1281400700
+              "duration": 1226054400
             }
           },
           {
@@ -40,7 +117,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1933700
+              "duration": 1894900
             }
           },
           {
@@ -53,7 +130,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 911900
+              "duration": 981200
             }
           },
           {
@@ -61,7 +138,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 32527900
+              "duration": 6670499
             }
           }
         ],
@@ -80,7 +157,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 411106199
+              "duration": 1615707300
             }
           },
           {
@@ -93,7 +170,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1976389899
+              "duration": 1699760499
             }
           },
           {
@@ -106,7 +183,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1204300
+              "duration": 2221700
             }
           },
           {
@@ -119,7 +196,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 717399
+              "duration": 1222199
             }
           },
           {
@@ -127,7 +204,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 26104299
+              "duration": 8502099
             }
           }
         ],
